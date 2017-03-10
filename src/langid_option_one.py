@@ -4,6 +4,7 @@ from langid.langid import LanguageIdentifier, model
 
 # method for classification of language with langid. Lousy model, worse than baseline ot ground_truth
 # however, can be trained on relevant data to perform better
+# https://github.com/saffsd/langid.py
 
 def classify_langid(dataframe):
     identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
