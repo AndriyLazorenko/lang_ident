@@ -26,4 +26,3 @@ def cook():
     df = pd.concat(li)
     return df
 
-
